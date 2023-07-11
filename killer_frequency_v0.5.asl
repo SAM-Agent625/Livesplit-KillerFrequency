@@ -3,36 +3,6 @@
 // Version: v0.5
 
 
-// Updates v0.5
-// - splits have been finished, there is one split towards the end that I'm not entirely certain
-// -- where it triggers, but as long as the isGameLoaded variable works on other devices, this
-// --- autosplitter is done
-// - now onto the testing phase, good luck, speedrunners!
-
-// Updates v0.4.1
-// - isGameLoaded was tested and did not initially transfer over to my second computer
-// -- However, I have already found a replacement value that also transfers over
-
-// Updates v0.4
-// - Splits have been added as well as a variable to determine if the game is loaded in or not
-// - isGamePaused may not be an entirely stable variable either, further testing is required
-
-// Updates v0.3.2
-// - Found an isGameReady variable that seems to transfer from device to device, will send to Seth to test with his device
-
-// Updates v0.3.1
-// - isGameReady has been adjusted to a slightly more accessible value (this is hopefully a temporary fix until a consistent variable is found)
-// - Timer will now only pause if the player pauses the game
-
-// Updates v0.3
-// - isGameReady has been fixed (hopefully)
-// - isGamePaused has been added (this will replace the use of the inGameTimer to determine when the player has paused the game
-
-// Current Issues:
-// splits: it is currently unknown where the current objective is stored at, or where the list of characters to save/kill is stored at
-// isGameReady will always be a pain in the butt
-
-
 state("KillerFrequency")
 {  
   // so far this value has been 0 when the character cannot be moved, and a value greater than zero when the character can be moved
